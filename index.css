@@ -11,7 +11,7 @@ body{
     background-blend-mode: darken;
     /* height: 400px;
     margin: 0px 0px; */
-    /* filter: brightness(50%); */
+    /* filter: brightness(60%); */
     
 }
 .head-left{
@@ -195,6 +195,7 @@ div .play{
     font-weight: 800;
     color: goldenrod;
 }
+
 .allcolm{
     justify-content: space-between;
 }
@@ -419,7 +420,7 @@ div .play{
   }
   .testi-back{
     background-color: rgb(29, 22, 22);
-    height: 500px;
+    height: 600px;
   }
   .testim{
     display: flex;
@@ -435,14 +436,179 @@ color: white;
     margin-top: 30px;
 }
 .main{
+    display: flex;
     margin-top: 50px;
     border: 1px solid transparent;
     background-color: rgba(97, 66, 66, 0.932);
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 400px;
     border-radius: 15px;
+}
+.main p{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
 }
 #divdisp{
     display: flex;
+    gap: 40px;
+}
+#testonn img{
+    border-radius: 50%;
+    height: 80px;
+    outline-style:dotted;
+    outline-color: gray;
+    outline-width: 5px;
+    border: 3px solid black;
+    border-top: 20px;
+}
+#testonn{
+    color: white;
+    line-height: 0.5;
+}
+.alltesti{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+   
+}
+.alltesti img{
+    transition: 1.5s;
+}
+.alltesti img:hover{
+transform: scale(2.5);
+}
+.gallery{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+.gallery h4{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.gallerytext{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.galleryphoto{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.galleryphoto img{
+    width: 350px;
+    border: 4px solid rgb(85, 84, 84);
+    transition: 0.5s;
+}
+.galleryphoto img:hover{
+    transform: scale(1.1);
+    /* width: 10px; */
+}
+
+/* CHELFS SECTION */
+.chelfs{
+    background-color: rgb(46, 29, 29);
+    height: 730px;
+    color: white;
+}
+.chefchef{
+    display: flex;
+    gap: 20px;
+}
+.chefchef h4{
+    margin-top: 50px;
+}
+.ourpro{
+    color: goldenrod;
+    margin-top: 30px;
+}
+.allchelfs{
+    display: flex;
+}
+.allchelfs img{
+    margin-top: 50px;
+    height: 350px;
+}
+.conttus{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+.location{
+    background-color: rgb(44, 29, 9);
+    /* height: 600px; */
+    /* margin: 0px; */
+}
+.container iframe{
+    background-color: rgba(0, 0, 0, 0.712);
+} 
+.formcont input{
+    margin-left: 200px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    outline: none;
+} 
+.formcont i{
+    background-color: goldenrod;
+    border-radius: 50%;
+    padding: 10px;
+}  
+#butt{
+    margin-left: 580px; 
+    position: relative; 
+    bottom: 50px;
+    padding: 5px 10px;
+    background-color: goldenrod;
+    border-color: transparent;
+    color: white;
+    border-radius: 20px;
+}
+.footer{
+    background-color: black; 
+    height: 350px; 
+    border: 1px solid white; 
+    border-right:10px; 
+    border-left:10px;"
+}
+.gen-footer-div{
+    display: flex;
     gap: 100px;
+    font-size: 16px;
+    margin-top: 80px;
+    color: rgb(136, 132, 132);
+}
+main i{
+    color: goldenrod;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.iicon i{
+    margin-right: 5px;
+    background-color: rgb(58, 58, 57);
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(80, 78, 78);
+}
+
+.gen-footer-div a{
+    text-decoration: none;
+    color: rgb(136, 132, 132);
+}
+.gen-footer-div a:hover{
+    color: goldenrod;
 }
